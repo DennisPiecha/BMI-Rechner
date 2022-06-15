@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Metatron" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>BMI</title>
+  </head>
+  <body>
+    <div id="haupt">
+      <h1>Body Index</h1>
+      <form name="bmiform">
+        <input type="text" name="groesse" />
+        <h2>Größe in cm</h2>
+        <br />
+        <input type="text" name="gewicht" />
+        <h2>Gewicht in kg</h2>
+        <br />
+        <input
+          type="button"
+          name="submit"
+          value="berechnen"
+          onclick="berechnen();"
+        />
+
+        <br />
+      </form>
+      <br /><a href="https://bmirechner.net/bmi-tabelle" class="btn btn-primary"
+        >BMI-Tabele</a
+      >
+    </div>
+    <br />
+
+    <h2>Was ist der BMI?</h2>
+    <p>
+      BMI ist die Abkürzung für den englischen Begriff „Body-Mass-Index“. Zur
+      Berechnung des BMI wird das Verhältnis von Gewicht und Körpergröße
+      ermittelt. Anders als bei Erwachsenen sagt der BMI bei Kindern und
+      Jugendlichen alleine nichts aus. Der Grund: Während des Wachstums
+      verändert sich die Körperzusammensetzung immer wieder und zwar bei Jungen
+      und Mädchen unterschiedlich. Wissenschaftler haben daher sogenannte
+      Referenzwerte errechnet, die sowohl das Alter als auch das Geschlecht
+      einbeziehen. Sie sind bei dem weiter unten eingefügten BMI-Rechner
+      hinterlegt und werden automatisch berücksichtigt.
+      <br /><br />
+      Grundsätzlich gilt: Der BMI dient nur als Anhaltspunkt dafür, ob das
+      Körpergewicht eher gering, normal oder hoch ist. Über die Ursachen von
+      Über- und Untergewicht gibt der BMI keine Auskunft. Er sagt alleine nichts
+      darüber aus, ob möglicherweise eine Essstörung vorliegt. Das lässt sich
+      nur entscheiden, wenn andere Kriterien mit einbezogen werden, zum Beispiel
+      das Essverhalten, das Selbstwertgefühl und die Körperwahrnehmung. Der BMI
+      alleine erlaubt auch keine Aussage über den Gesundheitszustand eines
+      Menschen. Dazu benötigt eine Ärztin oder ein Arzt weitere Informationen.
+    </p>
+
+    <h2>Welche Aussagekraft hat der BMI?</h2>
+    <p>
+      Der BMI ist ein Richtwert mit einigen Schwächen. Neben der fehlenden
+      Berücksichtigung von Alter und Geschlecht stößt der BMI vor allem auf
+      Kritik, weil er lediglich die Körpermasse als Indikator für die Gesundheit
+      zugrunde legt und dabei nicht zwischen Fett- und Muskelmasse
+      unterscheidet. Wer viel Sport treibt und damit auch viel schwere
+      Muskelmasse besitzt, kann mit der Berechnung des BMI fälschlicherweise als
+      übergewichtig angesehen werden. Dennoch ist der BMI eine schnelle und
+      einfache Methode, das eigene Körpergewicht einzuordnen. Neuen
+      wissenschaftlichen Daten zufolge scheint neben dem BMI vor allem der
+      Bauchumfang nützlich zu sein, um die Gesundheitsgefährdung durch
+      Übergewicht besser einzuschätzen. Daneben gibt es weitere Methoden, um das
+      Normalgewicht zu berechnen.
+    </p>
+
+    <h2>WIE WIRD DER BMI BERECHNET?</h2>
+
+    <p>
+      Zur Berechnung des BMI wird das Verhältnis von Körpergewicht und
+      Körpergröße ermittelt. <br />
+      <br />
+      <b> BMI = Körpergewicht in kg / (Körpergröße in m)²</b>
+    </p>
+
+    <img class="bmiTabelle" src="bmi.png" alt="" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
